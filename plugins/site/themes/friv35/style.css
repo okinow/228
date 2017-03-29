@@ -1,0 +1,458 @@
+body,
+button,
+dd,
+div,
+dl,
+dt,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+input,
+li,
+ol,
+p,
+td,
+textarea,
+th,
+ul {
+    margin: 0;
+    padding: 0
+}
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 Arial, sans-serif
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    font-weight: 400
+}
+input,
+select,
+textarea {
+    font-size: 100%;
+    border: 0
+}
+fieldset,
+hr,
+img {
+    border: 0;
+    padding: 0;
+    margin: 0
+}
+li,
+ol,
+ul {
+    list-style: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0
+}
+@font-face{font-family:headth_title;src:url(../../../../);src:url(../../../../?#iefix) format('embedded-opentype'),
+url(../../../../) format('woff'),
+url(../../../../) format('truetype'),
+url(../../../../#headth_title) format('svg');
+font-weight:700;
+font-style:normal
+}
+a:hover {
+    text-decoration: underline
+}
+a,
+ins,
+object {
+    text-decoration: none;
+    outline: 0
+}
+body {
+    background: #6b5d25;
+    overflow-x: hidden
+}
+.clearfix {
+    position: fixed!important
+}
+#header {
+    background: #2E4678;
+    height: 40px;
+    min-width: 740px;
+    padding: 0 5px 0 15px;
+    position: relative;
+    z-index: 109;
+    top: 0;
+    left: 0;
+    right: 0
+}
+.logo {
+    margin-right: 8px;
+    width: 130px;
+    height: 40px;
+    float: left;
+    position: relative;
+    overflow: hidden
+}
+.logo_link,
+.logo_title {
+    width: 130px;
+    display: block;
+    font-size: 20px;
+    line-height: 40px;
+    left: 0;
+    top: 0;
+    position: absolute;
+    color: #fff;
+    margin: 0 5px;
+    text-transform: uppercase
+}
+.logo a {
+    text-decoration: none
+}
+.search {
+    float: left;
+    display: block;
+    width: 160px;
+    height: 20px!important;
+    margin: 10px 15px auto 0;
+    background: #6b5d25;
+}
+.search .txt {
+    height: 18px;
+    width: 124px;
+    border: 0;
+    background: 0 0;
+    display: inline-block;
+    float: left;
+    padding: 1px 4px;
+    color: #fff;
+    font-size: 11px;
+    font-family: Verdana;
+    line-height: 18px;
+    vertical-align: top;
+    cursor: auto;
+    margin: 0;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-align: start;
+    outline: 0
+}
+.search .txt:focus {
+    color: #fff
+}
+.search .btnSearch {
+    width: 26px;
+    height: 20px;
+    float: right;
+    display: inline-block;
+    background: url(../../../../) 5px 3px no-repeat;
+    margin-left: 0;
+    border: none;
+    outline: 0
+}
+.search .btnSearch:hover {
+    background-position: 5px -18px
+}
+.navHeader {
+    display: inline-block;
+    padding-top: 10px;
+    line-height: 21px;
+    float: left
+}
+.navHeader li {
+    padding: 0 7px;
+    display: inline-block;
+    float: left;
+    font-weight: 700;
+    text-shadow: 0 1px #20202F;
+    text-transform: capitalize
+}
+.navHeader a {
+    color: #CED7EC
+}
+.navHeader .active,
+.navHeader a:hover {
+    border-bottom: 2px solid #476BB8;
+    color: #F1F3FA;
+    padding-bottom: 3px;
+    text-decoration: none
+}
+.navHeader .active,
+.navHeader strong {
+    font-weight: 700
+}
+.navHeader .dropDown {
+    height: 24px;
+    position: relative;
+    cursor: pointer
+}
+.navHeader .dropDown .arrow {
+    background: #6b5d25 url(../../../../) 106px -61px no-repeat;
+    margin-left: 5px;
+    display: block;
+    width: 120px;
+    height: 22px;
+    padding-left: 10px;
+    font-weight: 700;
+    color: #fff
+}
+.navHeader .dropDown:hover .arrow {
+    background-position: 106px -39px;
+    color: #F0F2FB
+}
+.navHeader .dropDown ul {
+    background: #6b5d25;
+    display: none;
+    position: absolute;
+    left: 13px;
+    z-index: 111;
+    top: 23px;
+    width: 180px
+}
+.navHeader .dropDown ul li {
+    border-bottom: 1px solid #000;
+    display: block;
+    float: none;
+    text-shadow: none;
+    font-weight: 400;
+    padding: 0
+}
+.navHeader .dropDown ul a,
+.navHeader .dropDown ul strong {
+    padding: 2px 10px 2px 15px;
+    display: block;
+    color: #F0F2FB
+}
+.navHeader .dropDown ul .active,
+.navHeader .dropDown ul a:hover {
+    color: #20FFFF;
+    background: #476BB8;
+    border-bottom-width: 0;
+    padding-bottom: 2px;
+    font-weight: 400
+}
+.navHeader .dropDown:hover ul {
+    display: block
+}
+.ads_content
+{
+    width: 411px;
+    height: 290px;
+    float: right;
+    border-radius: 5px;
+    padding: 3px;
+    border: 1px solid #fff;
+    margin-bottom: 8px;
+    margin-right: 5px;
+    margin-top: 4px;
+    text-align: center;
+    padding-top: 10px;
+}
+#page_loading {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px
+}
+.loading {
+    width: 133px;
+    height: 148px;
+    background: url(../../../../) center center no-repeat
+}
+.game-name {
+    opacity: .9;
+    color: #F9D327;
+    left: 6px;
+    top: 6px;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    width: 133px;
+    height: 148px;
+    line-height: 16px
+}
+.game-name a {
+    color: #F9D327;
+    font-size: 18px;
+    display: block;
+    width: 127px;
+    height: 76px;
+    margin: 36px 3px;
+    line-height: 23px;
+    overflow: hidden;
+    font-family: Oswald, Arial, sans-serif
+}
+.game-name a:hover {
+    text-decoration: none
+}
+.newcover2 {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    z-index: 1;
+    width: 60px;
+    height: 55px;
+    background: url(img/new2.png) no-repeat
+}
+.hotcover2 {
+    position: absolute;
+    top: 0;
+    left: -4px;
+    z-index: 1;
+    width: 60px;
+    height: 55px;
+    background: url(img/hot2.png) no-repeat
+}
+.feacover2 {
+    position: absolute;
+    top: 0;
+    left: -2px;
+    z-index: 1;
+    width: 60px;
+    height: 55px;
+    background: url(../../../../) no-repeat
+}
+#site-content {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 40px!important
+}
+.box {
+    float: left;
+    border: 2px solid #6b5d25;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 2px;
+    position: relative;
+    display: table-cell;
+    list-style: none
+}
+.box img {
+    width: 135px;
+    height: 150px;
+    display: block
+}
+.box .game-name {
+width: 135px;
+height:150;
+position: absolute;
+bottom: 0;
+left: 0;
+top: 0;
+opacity: 0.7;
+display: none;
+background-color: #333;
+overflow: hidden;
+text-overflow: ellipsis;
+text-align: center;
+}
+.box .game-name a {
+    width: auto;
+    height: 87px;
+    font-size: 16px;
+    margin: 20px 0 0;
+    line-height: 23px;
+    text-align: center;
+    overflow: hidden
+}
+.box:hover {
+    border: 2px solid #fff
+}
+.game-name {
+    display: block
+}
+#site-foot {
+    width: 100%;
+    margin: 30px auto 0;
+    background: #2E4678;
+    border-bottom: 0;
+    height: auto;
+    overflow: hidden
+}
+#site-foot a {
+    color: #fff;
+    padding: 5px;
+    text-decoration: none;
+    line-height: 25px;
+	font-size:12px;
+}
+.foot-links {
+    width: 740px;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center
+}
+.copyright {
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    height: auto;
+    overflow: hidden
+}
+.error_msg {
+    color: #fff;
+    font-size: 20px;
+    margin: 200px 0 0;
+    text-align: center
+}
+#infscr-loading {
+    position: fixed;
+    text-align: center;
+    bottom: 30px;
+    left: 42%;
+    z-index: 100;
+    padding: 10px 20px;
+    border: 0;
+}
+.pagination>a {
+padding: .1% .5%;
+margin: .2%;
+font-size: .8em;
+-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+text-shadow: #000 1px 1px;
+}
+.pagination-item {
+background: #0b8bc2;
+background: -webkit-gradient(linear, left top, left bottom, from(#0b8bc2), to(#056799));
+background: -webkit-linear-gradient(top, #0b8bc2 0, #056799 100%);
+background: linear-gradient(to bottom, #0b8bc2 0, #056799 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF0B8BC2', endColorstr='#FF056799', GradientType=0);
+border: 1px solid #00557e;
+}
+.pagination-active, .pagination-prev, .pagination-next, .pagination-item:hover {
+background: #ffb206;
+background: -webkit-gradient(linear, left top, left bottom, from(#ffb206), to(#f4880c));
+background: -webkit-linear-gradient(top, #ffb206 0, #f4880c 100%);
+background: linear-gradient(to bottom, #ffb206 0, #f4880c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFB206', endColorstr='#FFF4880C', GradientType=0);
+color: #333;
+border: 1px solid #333;
+}
